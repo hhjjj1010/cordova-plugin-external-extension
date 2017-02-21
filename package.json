@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-externalExtension",
+  "version": "0.0.1",
+  "description": "a cordova plugin, a JS version of open external URL, open mobile QQ temporary chat UI, open App Store",
+  "cordova": {
+    "id": "cordova-plugin-externalExtension",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "external URL",
+    "cordova-plugin-externalExtension",
+    "open mobile QQ",
+    "open App Store"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhjjj1010/cordova-plugin-externalExtension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hhjjj1010/cordova-plugin-externalExtension/issues"
+  },
+  "homepage": "https://github.com/hhjjj1010/cordova-plugin-externalExtension#readme",
+  "author": "hhjjj1010",
+  "license": "ISC"
+}
