@@ -1,4 +1,4 @@
-# cordova-plugin-externalExtension
+# cordova-plugin-external-extension
 ### 前言：
 1. 写这个插件的初衷是因为在项目中需要在我们的app中通过QQ号打开手机QQ并进入临时聊天界面，相当于一个QQ客服的功能。
 2. 前前后后试过很多种方法，H5上直接打开QQ的URL为"mqq://im/chat?chat_type=wpa&uin="+qqNum+"&version=1&src_type=web"。直接使用a href=url只能把qq号写死才行，在js中用window.open(url)的方式，android和iOS10以下的设备没问题可以打开。iOS10的设备通过设置URL Schemes的方式
@@ -20,7 +20,7 @@
 ***
 ### 安装
 ###### 在线安装
-cordova plugin add cordova-plugin-externalExtension
+cordova plugin add cordova-plugin-external-extension
 
 cordova plugin add https://github.com/hhjjj1010/cordova-plugin-externalExtension.git
 
