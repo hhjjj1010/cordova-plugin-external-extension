@@ -4,6 +4,7 @@
 2. 前前后后试过很多种方法，H5上直接打开QQ的URL为"mqq://im/chat?chat_type=wpa&uin="+qqNum+"&version=1&src_type=web"。直接使用a href=url只能把qq号写死才行，在js中用window.open(url)的方式，android和iOS10以下的设备没问题可以打开。iOS10的设备通过设置URL Schemes的方式
 可以打开手机QQ，但此时iOS10以下的设备会报错打不开手机QQ。
 3. 所以最后选择写插件的方式来实现这个功能，因为app内需要有跳转到App Store的功能，又扩展了一个使用手机默认浏览器打开URL的方法。
+
 ***
 ### 功能说明
 1. openURL：使用手机默认浏览器打开URL，例如iOS上用Safari打开"https://www.baidu.com"；
