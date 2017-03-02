@@ -9,8 +9,6 @@ import android.net.Uri;
 import android.text.TextUtils;
 
 
-import com.imcyz.imcyz.R;
-
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
 
@@ -46,7 +44,6 @@ public class externalExtension extends CordovaPlugin {
             Dialog alertDialog = new AlertDialog.Builder(this.cordova.getActivity()).
             setTitle("提示").
             setMessage("您还没有安装QQ!").
-            setIcon(R.drawable.icon).
             create();
             alertDialog.show();
             return;
@@ -63,7 +60,6 @@ public class externalExtension extends CordovaPlugin {
             Dialog alertDialog = new AlertDialog.Builder(this.cordova.getActivity()).
             setTitle("提示").
             setMessage("URL为空！！！").
-            setIcon(R.drawable.icon).
             create();
             alertDialog.show();
             return;
